@@ -1,72 +1,79 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #ffedd5;
-  font-family: 'Roboto', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Roboto+Serif:opsz,wght@8..144,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketCoffee</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
 
-ul{
-  list-style: none;
-}
-/* FONTES */
-h1, h2, h3, .price {
-  font-family: 'Roboto Serif', serif;
-  text-transform: uppercase;
-  color: #2D2C2A;
-}
-/* Header */
-header{
-  padding: 32px 0;
-  text-align: center;
-  }
+  <body>
+    <header>
+      <h1>Oyá <span class="qualidade">nike</span></h1>
+      <p>Horario a combinar</p>
+    </header>
 
-  header h1{
-    margin-bottom: 4px;
-    font-size: 28px;
-    
-  }
+    <section>
+      <h2 class="consulta">Conulta ao orixa</h2>
 
-header,
-section{
-  max-width: 300px;
-  margin: 0 auto;
-}
+      <ul>
+        <li>
+          <div class="details">
+            <h3>Buzio</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
 
-header h1 span{
-  color: #995000;
-}
+          <strong class="price"> R$100,00 </strong>
+        </li>
 
-  section{
-    margin-bottom: 24px;
-  }
+        <li>
+          <div class="details">
+            <h3>Carta</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
 
-section h2{
-  background-color: #fed7aa;
-  padding: 8px 16px;
-  text-align: center;
+          <strong class="price"> R$70,00 </strong>
+        </li>
+      </ul>
+    </section>
 
-margin-bottom: 24px;
-font-size: 18px;
-}
+    <section>
+      <h2 class="trabalho">Trabalhos</h2>
 
-ul li {
-  margin-bottom: 16px;
-  display: flex;
-}
+      <ul>
+        <li>
+          <div class="details">
+            <h3>abertura de caminhos</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
 
-li .details{
-  max-width: 240px;
-}
+          <strong class="price"> R$777,00 </strong>
+        </li>
 
-.details h3{
-  margin-bottom: 8px;
-  font-size: 16px;
-}
+        <li>
+          <div class="details">
+            <h3>Banho de ervas</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
 
-.details p{
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 14px;
-  line-height: 21px;
-}
+          <strong class="price"> R$70,00 </strong>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
